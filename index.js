@@ -1,4 +1,4 @@
-const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+import fn from './src/index.js'; 
+
+console.log(fn(3, 5));
+
